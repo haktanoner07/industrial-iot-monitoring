@@ -56,3 +56,7 @@ Real-time environmental monitoring system developed with ESP32, MQTT and Grafana
 ## 📈 Status
 
 Project is under active development.
+
+## 📌 Notes
+
+This repository contains demo implementations and simplified architectures for learning and portfolio purposes.
