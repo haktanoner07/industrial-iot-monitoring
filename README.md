@@ -1,2 +1,34 @@
-# industrial-iot-monitoring
-ESP32 and MQTT based real-time industrial IoT monitoring system.
+# Industrial IoT Monitoring System
+
+Real-time environmental monitoring system developed with ESP32, MQTT and Grafana infrastructure.
+
+## 🚀 Technologies
+
+- ESP32
+- MQTT
+- Node-RED
+- InfluxDB
+- Grafana
+- Python
+
+---
+
+## 📡 Features
+
+- Real-time sensor monitoring
+- MQTT communication
+- Dashboard visualization
+- Embedded system integration
+- Data logging infrastructure
+
+---
+
+## 🏗️ System Architecture
+
+Sensors → ESP32 → MQTT → Node-RED → InfluxDB → Grafana
+
+---
+
+## 📈 Status
+
+Project is under active development.
