@@ -25,7 +25,25 @@ Real-time environmental monitoring system developed with ESP32, MQTT and Grafana
 
 ## 🏗️ System Architecture
 
-Sensors → ESP32 → MQTT → Node-RED → InfluxDB → Grafana
+```text
++-----------+       +-----------+       +-------------+
+|  Sensors  | ----> |   ESP32   | ----> | MQTT Broker |
++-----------+       +-----------+       +-------------+
+                                              |
+                                              v
+                                       +-------------+
+                                       |  Node-RED  |
+                                       +-------------+
+                                              |
+                                              v
+                                       +-------------+
+                                       |  InfluxDB  |
+                                       +-------------+
+                                              |
+                                              v
+                                       +-------------+
+                                       |   Grafana  |
+                                       +-------------+
 
 ---
 
